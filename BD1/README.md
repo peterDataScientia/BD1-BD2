@@ -6,7 +6,7 @@
 - **[Compound aggregation audit](audit/BD1_compound_aggregation_audit.csv)**: 2,827 distinct structures before cross-assay disagreement exclusions, including 11 compounds marked for review.
 - **[Assay audit](audit/BD1_assay_audit.csv)**: 685 assay-level domain/format classification decisions, of which 228 were automatically accepted for BD1 biochemical IC50.
 - **[Summary](audit/summary.json)**: source records and exclusion counts.
-- **[Reproducible preprocessing script](code/preprocess_bd1_from_chembl.py)**: reads the ChEMBL-derived exact-IC50 export and writes all audit/curation CSVs.
+- **[Reproducible preprocessing script](notebooks/01_BD1_ChEMBL_Preprocessing.ipynb)**: reads the ChEMBL-derived exact-IC50 export and writes all audit/curation CSVs.
 
 ### Source and filtering
 
