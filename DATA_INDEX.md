@@ -9,8 +9,8 @@ The repository separates domain-specific files into `BD1/` and `BD2/`, with shar
 - `BD2/validation/development_AD_threshold_performance.csv`: development fold coverage and accuracy at tested similarity thresholds.
 - `BD2/validation/similarity_bin_validation_errors.csv`: bin-specific validation-derived errors.
 - `BD2/screening/BD2_FDA_AD03_unseen.csv`: 33 FDA-library candidates satisfying ECFP4 nearest-neighbor Tanimoto similarity >= 0.30.
-- `BD2/code/run_bd2_qsar.py`: model training and evaluation pipeline.
-- `BD2/code/analyze_bd2_validation_errors.py`: similarity-dependent error analysis.
+- `BD2/notebooks/01_BD2_QSAR_Modeling.ipynb`: model training and evaluation pipeline.
+- `BD2/notebooks/02_BD2_Validation_Derived_Errors.ipynb`: similarity-dependent error analysis.
 
 ## Methodological cautions
 
