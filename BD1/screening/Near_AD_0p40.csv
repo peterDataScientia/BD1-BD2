@@ -1,0 +1,14 @@
+DrugCentral ID,Drug name,FDA list,pIC50 (predicted),IC50 nM (predicted),Max Tanimoto,Train AD pass,Tanimoto >= 0.40,Molecular weight,Chemical identity,Prior literature,Reference URL
+1802,midazolam,True,6.1743,669.418,0.4,False,True,325.77,DDLIGBOFAVUZHB-UHFFFAOYSA-N,Known BET/BD1 binding,https://pmc.ncbi.nlm.nih.gov/articles/PMC4748212/
+5233,brigatinib,True,6.09011,812.629,0.49398,False,True,584.11,AILRADAXUVEEIR-UHFFFAOYSA-N,Literature verification pending,
+136,alprazolam,True,6.05825,874.487,0.73913,True,True,308.77,VREFGVBLTWBCJP-UHFFFAOYSA-N,Known BET/BD1 binding,https://pmc.ncbi.nlm.nih.gov/articles/PMC4748212/
+2729,triazolam,True,5.86658,1359.63,0.65306,True,True,343.22,JOFWLTCLBGQGBO-UHFFFAOYSA-N,Reported non-binding in BET studies,https://pmc.ncbi.nlm.nih.gov/articles/PMC4035449/
+1056,estazolam,True,5.72398,1888.06,0.43636,False,True,294.75,CDCHDCWJMGXXRH-UHFFFAOYSA-N,Reported non-binding in BET studies,https://pmc.ncbi.nlm.nih.gov/articles/PMC4035449/
+852,diazepam,True,5.32979,4679.64,0.4,False,True,284.75,AAOVKJBEBIDNHE-UHFFFAOYSA-N,Literature verification pending,
+946,donepezil,True,5.25976,5498.497,0.41429,False,True,379.5,ADEBPBSSDYVVLD-UHFFFAOYSA-N,Literature verification pending,
+3290,oxyquinoline,True,5.17797,6637.942,0.41667,False,True,145.16,MCJGNVYPOGVAJF-UHFFFAOYSA-N,Literature verification pending,
+4156,edaravone,True,4.90381,12479.401,0.46512,False,True,174.2,QELUYTUMUWHWMC-UHFFFAOYSA-N,Literature verification pending,
+1749,metofoline,True,4.70892,19546.926,0.41509,False,True,345.87,YBCPYHQFUMNOJG-UHFFFAOYSA-N,Literature verification pending,
+2139,phensuximide,True,4.45058,35433.746,0.4,False,True,189.21,WLWFNJKHKGIJNW-UHFFFAOYSA-N,Literature verification pending,
+4245,methyl salicylate,True,4.26373,54484.094,0.44444,False,True,152.15,OSWPMRLSEDHDFF-UHFFFAOYSA-N,Literature verification pending,
+2609,tetrabenazine,True,4.17702,66524.413,0.43396,False,True,317.43,MKJIEFSOBYUXJB-HOCLYGCPSA-N,Literature verification pending,
