@@ -1,0 +1,35 @@
+{
+  "model": "RBF-SVR",
+  "representation": "Morgan ECFP4 r2 2048",
+  "total_compounds": 2816,
+  "development_n": 2275,
+  "holdout_n": 541,
+  "n_scaffolds": 1317,
+  "best_parameters": {
+    "C": 10.0,
+    "gamma": 0.01,
+    "epsilon": 0.1
+  },
+  "heldout": {
+    "R2": 0.727616519306722,
+    "RMSE": 0.5927155757799388,
+    "MAE": 0.4254927288641413,
+    "Bias": -0.09547600735116105
+  },
+  "repeated_scaffold_mean": {
+    "R2": 0.7030822291948137,
+    "RMSE": 0.5989863050758607,
+    "MAE": 0.44620772297515493,
+    "Bias": -0.0008826933720122495
+  },
+  "repeated_scaffold_SD": {
+    "R2": 0.045331124863958454,
+    "RMSE": 0.045155169880931725,
+    "MAE": 0.030146575105438233,
+    "Bias": 0.06440860003746837
+  },
+  "repeated_scaffold_runs": 20,
+  "y_randomization_runs": 20,
+  "AD_similarity_threshold_primary_screening": 0.3,
+  "AD_note": "Structural inclusion only, not a validated reliability boundary."
+}
