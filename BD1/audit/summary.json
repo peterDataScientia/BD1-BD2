@@ -1,0 +1,30 @@
+{
+  "source_file": "BRD4_IC50_curated_preliminary.csv",
+  "source_note": "Preliminary curated ChEMBL export, not original unfiltered 58,225 activity ZIP",
+  "input_exact_IC50_records": 10919,
+  "input_assays": 685,
+  "input_unique_compound_ids": 7966,
+  "assay_decisions": {
+    "review_BD1_not_explicit": 361,
+    "accept_BD1_biochemical": 228,
+    "review_BD1_BD2_mixed_description": 41,
+    "review_mutant_or_multi_construct": 30,
+    "review_cellular_or_nonbiochemical_format": 23,
+    "review_non_biochemical": 2
+  },
+  "record_decisions": {
+    "review_BD1_not_explicit": 5445,
+    "eligible": 2932,
+    "review_BD1_BD2_mixed_description": 1456,
+    "review_mutant_or_multi_construct": 582,
+    "review_cellular_or_nonbiochemical_format": 457,
+    "review_non_biochemical": 47
+  },
+  "eligible_records": 2932,
+  "eligible_valid_structures": 2932,
+  "unique_standardized_compounds": 2827,
+  "compounds_disagreement_review": 11,
+  "model_ready_compounds": 2816,
+  "domain_review": "Automated conservative filtering; assay descriptions should be manually verified for actual BD1 construct prior to publication.",
+  "aggregation": "Within-assay median pIC50, then median of assay medians; >1 pIC50 unit across assays held for review"
+}
