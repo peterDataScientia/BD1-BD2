@@ -18,3 +18,9 @@ Use the paired script and notebook in this folder. Place the source CSV alongsid
 
 ## Scope
 Descriptive SAR candidate discovery. **No docking, MD, BD1/BD2 selectivity calculation, experimental confirmation, disease model or new binding measurement.** Before publication, verify original ChEMBL assay descriptions and compare each proposed SAR rule against primary medicinal-chemistry papers. This study does not establish clinically useful or newly discovered inhibitors.
+
+## Added statistical robustness results
+
+Among 635 pairs in single-assay strata with ECFP4 Tanimoto >=0.80, the observed number of >=10-fold potency differences was 63. In 2,000 potency permutations within assay groups, the null mean was 157.18 (SD 11.22, 95% empirical interval 136–179; lower-tail empirical p=0.00050). Similarity thresholds 0.70, 0.75, 0.80, 0.85, 0.90 yielded respective cliff fractions 14.97%, 12.98%, 9.92%, 7.26%, 6.45%. These figures describe structural association, **not independent experimental validation**.
+
+The complete downloadable study package includes `robustness.py`, sensitivity tables, permutation distribution, five figures and a manuscript draft. The GitHub notebook currently reproduces baseline descriptive findings from the CSV in this repository.
