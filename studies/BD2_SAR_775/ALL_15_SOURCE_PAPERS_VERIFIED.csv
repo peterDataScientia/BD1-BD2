@@ -1,0 +1,16 @@
+assay_id,n_candidate_cliffs,document_chembl_id,year,doi,original_research_program,assay_format
+CHEMBL6086970,17,CHEMBL6083288,2024,10.1021/acs.jmedchem.4c02516,BD2-selective inhibitors,TR-FRET
+CHEMBL5529441,10,CHEMBL5528036,2024,10.1021/acs.jmedchem.3c01837,BD1-selective inhibitors, BD2 comparator,TR-FRET
+CHEMBL5376137,9,CHEMBL5375945,2023,10.1021/acs.jmedchem.3c00906,BD1 probe, BD2 comparator,TR-FRET
+CHEMBL4733660,8,CHEMBL4732071,2021,10.1016/j.ejmech.2020.112868,HDAC/BRD4 dual inhibitors,Fluorescence based
+CHEMBL5164017,4,CHEMBL5154846,2022,10.1016/j.ejmech.2022.114259,BRD4 isoform degraders,HTRF
+CHEMBL4185405,3,CHEMBL4184143,2017,10.1021/acs.jmedchem.7b00193,Pan-BET CD161 inhibitors,Fluorescence polarization
+CHEMBL5218148,2,CHEMBL5214999,2022,10.1021/acs.jmedchem.2c01102,I-BET432,TR-FRET
+CHEMBL5369309,2,CHEMBL5365519,2023,10.1021/acsmedchemlett.3c00242,Bivalent BET inhibitors,TR-FRET
+CHEMBL5162524,2,CHEMBL5154816,2022,10.1021/acs.jmedchem.2c00100,Pan-BD2-selective BET inhibitors,HTRF
+CHEMBL3584940,1,CHEMBL3580597,2015,10.1021/acs.jmedchem.5b00613,Gamma-carboline BET inhibitor design,Fluorescence polarization
+CHEMBL5349003,1,CHEMBL5346911,2023,10.1016/j.ejmech.2023.115246,BET inhibitor from PROTAC,TR-FRET
+CHEMBL6105969,1,CHEMBL6103593,2025,10.1021/acs.jmedchem.4c02128,Selective BRD4 inhibitor design for ADPKD,Fluorescence anisotropy
+CHEMBL5317665,1,CHEMBL5316292,2023,10.1021/acs.jmedchem.2c01770,Physachenolide C BET inhibitor,Fluorescence polarization
+CHEMBL5355992,1,CHEMBL5352482,2023,10.1016/j.ejmech.2022.115023,BET inhibitors for acute liver injury,AlphaScreen
+CHEMBL5157210,1,CHEMBL5154688,2022,10.1021/acs.jmedchem.1c01747,I-BET567 Pan-BET inhibitor,TR-FRET
