@@ -38,3 +38,10 @@ These findings indicate a nonrandom association between molecular similarity and
 - Tong J-B et al. 2024. *Molecular Diversity*. Discovery of novel BRD4-BD2 inhibitors via in silico approaches. doi:10.1007/s11030-023-10611-z
 - Hu Y et al. 2012. MMP-Cliffs: systematic identification of activity cliffs on the basis of matched molecular pairs. PubMed PMID:22489665
 - ChEMBL database, https://www.ebi.ac.uk/chembl/
+
+
+## Verified primary-source cross-reference (22 November 2026)
+
+BindingDB identifies assay CHEMBL5218148 as a BRD4-BD2 TR-FRET inhibition assay associated with Humphreys et al., *J Med Chem* (2022), on I-BET432. The source manuscript itself reports an activity cliff for N-linked imidazole 37 versus C-linked isomer 34 within its chemistry program; hence activity cliffs in related BET inhibitor medicinal chemistry are not an unreported phenomenon. Among the curated 63 shared-assay candidate cliffs, all pairs have matching document IDs, and 46 also satisfy the one-cut MMP criterion. The same-assay pair CHEMBL5219280 / CHEMBL5220623 differs by stereochemical assignment, with recorded IC50 63095.73 and 630.96 nM and equal achiral ECFP4 fingerprints; this is a *stereochemical candidate cliff* and should not be interpreted as an achiral single-cut chemical transformation.
+
+**Verification status:** Only the assay CHEMBL5218148 description has an independently corroborated public cross-reference. The individual potency records, other assay protocols and novel pair-level SAR claims require original-article inspection; the manuscript remains a working research draft, not a submission-ready paper. Detailed traceability: [LITERATURE_ASSAY_AUDIT.md](LITERATURE_ASSAY_AUDIT.md).
