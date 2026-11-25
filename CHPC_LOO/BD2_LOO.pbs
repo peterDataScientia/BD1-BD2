@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -N LOO_BD2
+#PBS -q smp
+#PBS -l select=1:ncpus=24:mpiprocs=1:mem=48gb
+#PBS -l walltime=03:00:00
+#PBS -j oe
+set -euo pipefail
+cd "$PBS_O_WORKDIR"
+export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1
+# Activate your installed environment before qsub, or set LOO_PYTHON to its Python executable.
+"${LOO_PYTHON:-python}" -u CHPC_LOO/run_loocv.py BD2 --workers "${LOO_WORKERS:-24}" ${LOO_EXTRA:-}
