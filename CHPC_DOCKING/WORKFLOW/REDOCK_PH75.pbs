@@ -1,0 +1,14 @@
+#!/bin/bash
+#PBS -N BRD4_PH75
+#PBS -P CHEM1937
+#PBS -q serial
+#PBS -l select=1:ncpus=4:mpiprocs=1:mem=4gb
+#PBS -l walltime=01:00:00
+#PBS -j oe
+set -euo pipefail
+cd "$PBS_O_WORKDIR"
+module load chpc/compmech/autodock-vina/1.2.3
+vina --receptor "${DOMAIN}_pH75_wet.pdbqt" \
+     --ligand "${DOMAIN}_WSH.pdbqt" --config "${DOMAIN}_grid.conf" \
+     --out "${DOMAIN}_pH75_WSH_redocked.pdbqt" \
+     > "${DOMAIN}_pH75_redocking.log" 2>&1

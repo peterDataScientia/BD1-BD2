@@ -1,0 +1,20 @@
+#!/bin/bash
+# Reconstructed from earlier workflow notes; compare against actual CHPC REDOCK_COMPARE.pbs.
+#PBS -N BRD4_REDOCK
+#PBS -P CHEM1937
+#PBS -q serial
+#PBS -l select=1:ncpus=4:mpiprocs=1:mem=4gb
+#PBS -l walltime=01:00:00
+#PBS -j oe
+set -euo pipefail
+cd "$PBS_O_WORKDIR"
+module load chpc/compmech/autodock-vina/1.2.3
+case "$STATE" in
+ dry) receptor="../02_RECEPTORS/${DOMAIN}_receptor.pdbqt";;
+ wet) receptor="../02_RECEPTORS/${DOMAIN}_wet_matched_receptor.pdbqt";;
+ *) echo "Invalid STATE"; exit 1;;
+esac
+vina --receptor "$receptor" --ligand "${DOMAIN}_WSH.pdbqt" \
+     --config "${DOMAIN}_grid.conf" \
+     --out "${DOMAIN}_${STATE}_WSH_redocked.pdbqt" \
+     > "${DOMAIN}_${STATE}_redocking.log" 2>&1
