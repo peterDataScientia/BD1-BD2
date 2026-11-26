@@ -1,0 +1,26 @@
+#!/bin/bash
+#PBS -N BRD4_REDOCK
+#PBS -q serial
+#PBS -l select=1:ncpus=4:mpiprocs=1:mem=4gb
+#PBS -l walltime=01:00:00
+#PBS -j oe
+
+set -euo pipefail
+cd "$PBS_O_WORKDIR"
+
+module load chpc/compmech/autodock-vina/1.2.3
+
+if [ "$STATE" = "dry" ]; then
+    REC="../02_RECEPTORS/${DOMAIN}_receptor.pdbqt"
+elif [ "$STATE" = "wet" ]; then
+    REC="../02_RECEPTORS/${DOMAIN}_wet_matched_receptor.pdbqt"
+else
+    exit 1
+fi
+
+vina \
+    --receptor "$REC" \
+    --ligand "${DOMAIN}_WSH.pdbqt" \
+    --config "${DOMAIN}_grid.conf" \
+    --out "${DOMAIN}_${STATE}_WSH_redocked.pdbqt" \
+    > "${DOMAIN}_${STATE}_redocking.log" 2>&1
