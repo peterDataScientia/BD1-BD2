@@ -10,6 +10,8 @@ cd "$PBS_O_WORKDIR"
 PYTHON="${LOO_PYTHON:-python}"
 THREADS="${NP_THREADS:-4}"
 export OMP_NUM_THREADS="$THREADS" OPENBLAS_NUM_THREADS="$THREADS" MKL_NUM_THREADS="$THREADS" NUMEXPR_NUM_THREADS="$THREADS"
-args=()
-if [ -n "${NP_LIMIT_CHUNKS:-}" ]; then args+=(--limit-chunks "$NP_LIMIT_CHUNKS"); fi
-"$PYTHON" -u CHPC_NP_SCREEN/run_screen.py "$NP_SOURCE" --threads "$THREADS" "${args[@]}"
+if [ -n "${NP_LIMIT_CHUNKS:-}" ]; then
+    "$PYTHON" -u CHPC_NP_SCREEN/run_screen.py "$NP_SOURCE" --threads "$THREADS" --limit-chunks "$NP_LIMIT_CHUNKS"
+else
+    "$PYTHON" -u CHPC_NP_SCREEN/run_screen.py "$NP_SOURCE" --threads "$THREADS"
+fi
