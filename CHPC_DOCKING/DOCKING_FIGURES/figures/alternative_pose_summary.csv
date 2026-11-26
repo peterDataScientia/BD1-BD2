@@ -1,0 +1,7 @@
+Case,Top1_RMSD,centroid_shift,recovered_RMSD,expanded_mode,reverse_RMSD,minimum_all_pairs,original_WSH_distance,expanded_WSH_distance,original_WSH_Jaccard,expanded_WSH_Jaccard,cross_grid_Jaccard
+BD1 NP05,4.493,1.035,0.159,2,0.278,0.103,1.715,0.866,0.538,0.538,1.0
+BD1 NP14,9.177,2.93,1.215,2,2.322,0.106,1.831,3.316,0.786,0.5,0.5
+BD2 NP09,10.978,5.421,0.149,3,7.614,0.138,1.548,6.576,0.786,0.5,0.667
+BD2 NP10,10.453,4.773,0.237,4,8.408,0.12,1.932,6.563,0.714,0.5,0.583
+BD2 NP11,11.132,5.833,0.333,3,7.224,0.133,1.425,6.785,0.769,0.467,0.462
+BD2 NP12,9.922,5.204,0.178,5,7.036,0.178,1.443,6.251,0.846,0.467,0.538
