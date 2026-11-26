@@ -1,0 +1,15 @@
+#!/bin/bash
+#PBS -N BRD4_NP
+#PBS -q serial
+#PBS -l select=1:ncpus=4:mpiprocs=1:mem=8gb
+#PBS -l walltime=01:00:00
+#PBS -j oe
+set -euo pipefail
+cd "$PBS_O_WORKDIR"
+: "${NP_SOURCE:?Set NP_SOURCE to COCONUT or LOTUS}"
+PYTHON="${LOO_PYTHON:-python}"
+THREADS="${NP_THREADS:-4}"
+export OMP_NUM_THREADS="$THREADS" OPENBLAS_NUM_THREADS="$THREADS" MKL_NUM_THREADS="$THREADS" NUMEXPR_NUM_THREADS="$THREADS"
+args=()
+if [ -n "${NP_LIMIT_CHUNKS:-}" ]; then args+=(--limit-chunks "$NP_LIMIT_CHUNKS"); fi
+"$PYTHON" -u CHPC_NP_SCREEN/run_screen.py "$NP_SOURCE" --threads "$THREADS" "${args[@]}"
