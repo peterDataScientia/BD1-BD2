@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260mm" height="100mm" viewBox="0 0 982.68 377.95"><rect width="100%" height="100%" fill="white"/><g font-family="DejaVu Sans, sans-serif" fill="#111" font-weight="bold">
+<text x="86" y="35" font-size="20" text-anchor="start" >(A) BD1</text>
+<rect x="86" y="303" width="18.15" height="0" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<rect x="104.15000000000002" y="303" width="18.15" height="0" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<rect x="122.29999999999998" y="303" width="18.15" height="0" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<rect x="140.45" y="303" width="18.15" height="0" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<rect x="158.60000000000002" y="303" width="18.15" height="0" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<rect x="176.75" y="303" width="18.15" height="0" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<rect x="194.89999999999998" y="268.7625" width="18.15" height="34.23750000000001" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<rect x="213.05" y="212.7375" width="18.15" height="90.26249999999999" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<rect x="231.2" y="131.8125" width="18.15" height="171.1875" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<rect x="249.35" y="97.57500000000002" width="18.15" height="205.42499999999998" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<rect x="267.5" y="206.5125" width="18.15" height="96.48750000000001" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<rect x="285.65" y="281.2125" width="18.15" height="21.787500000000023" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<rect x="303.79999999999995" y="299.8875" width="18.15" height="3.1125000000000114" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<rect x="321.95000000000005" y="303" width="18.15" height="0" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<rect x="340.1" y="303" width="18.15" height="0" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<rect x="358.24999999999994" y="303" width="18.15" height="0" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<rect x="376.4" y="303" width="18.15" height="0" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<rect x="394.55" y="303" width="18.15" height="0" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<rect x="412.7" y="303" width="18.15" height="0" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<rect x="430.84999999999997" y="303" width="18.15" height="0" fill="#2563A6" stroke="white" stroke-width=".8"/>
+<line x1="250.06469646552554" y1="54" x2="250.06469646552554" y2="303" stroke="#202020" stroke-width="2.2" stroke-dasharray="6 4"/>
+<line x1="394.55" y1="54" x2="394.55" y2="303" stroke="#202020" stroke-width="1.6" stroke-dasharray="2 3"/>
+<line x1="86" y1="54" x2="86" y2="303" stroke="#202020" stroke-width="2.66" />
+<line x1="86" y1="303" x2="449" y2="303" stroke="#202020" stroke-width="2.66" />
+<line x1="122.30000000000004" y1="303" x2="122.30000000000004" y2="311" stroke="#202020" stroke-width="2.66" />
+<text x="122.30000000000004" y="330" font-size="16" text-anchor="middle" >-0.15</text>
+<line x1="213.05" y1="303" x2="213.05" y2="311" stroke="#202020" stroke-width="2.66" />
+<text x="213.05" y="330" font-size="16" text-anchor="middle" >-0.10</text>
+<line x1="303.79999999999995" y1="303" x2="303.79999999999995" y2="311" stroke="#202020" stroke-width="2.66" />
+<text x="303.79999999999995" y="330" font-size="16" text-anchor="middle" >-0.05</text>
+<line x1="394.55" y1="303" x2="394.55" y2="311" stroke="#202020" stroke-width="2.66" />
+<text x="394.55" y="330" font-size="16" text-anchor="middle" >0</text>
+<line x1="78" y1="303" x2="86" y2="303" stroke="#202020" stroke-width="2.66" />
+<text x="73" y="308" font-size="16" text-anchor="end" >0</text>
+<line x1="78" y1="240.75" x2="86" y2="240.75" stroke="#202020" stroke-width="2.66" />
+<text x="73" y="245.75" font-size="16" text-anchor="end" >20</text>
+<line x1="78" y1="178.5" x2="86" y2="178.5" stroke="#202020" stroke-width="2.66" />
+<text x="73" y="183.5" font-size="16" text-anchor="end" >40</text>
+<line x1="78" y1="116.25" x2="86" y2="116.25" stroke="#202020" stroke-width="2.66" />
+<text x="73" y="121.25" font-size="16" text-anchor="end" >60</text>
+<line x1="78" y1="54" x2="86" y2="54" stroke="#202020" stroke-width="2.66" />
+<text x="73" y="59" font-size="16" text-anchor="end" >80</text>
+<text x="267.5" y="366" font-size="20" text-anchor="middle" >Randomized Q²</text>
+<text x="22" y="178.5" font-size="20" text-anchor="middle" transform="rotate(-90 22 178.5)">Frequency</text>
+<rect x="259" y="57" width="188" height="42" fill="white"/>
+<text x="441" y="74" font-size="14.6" text-anchor="end" >Original Q² = 0.7119</text>
+<text x="441" y="93" font-size="14.6" text-anchor="end" >p = 0.004975</text>
+<text x="576" y="35" font-size="20" text-anchor="start" >(B) BD2</text>
+<rect x="576" y="303" width="18.15" height="0" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<rect x="594.15" y="299.8875" width="18.15" height="3.1125000000000114" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<rect x="612.3" y="303" width="18.15" height="0" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<rect x="630.45" y="299.8875" width="18.15" height="3.1125000000000114" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<rect x="648.6" y="303" width="18.15" height="0" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<rect x="666.75" y="303" width="18.15" height="0" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<rect x="684.9" y="281.2125" width="18.15" height="21.787500000000023" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<rect x="703.05" y="271.875" width="18.15" height="31.125" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<rect x="721.2" y="253.2" width="18.15" height="49.80000000000001" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<rect x="739.35" y="218.96249999999998" width="18.15" height="84.03750000000002" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<rect x="757.5" y="203.39999999999998" width="18.15" height="99.60000000000002" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<rect x="775.65" y="197.175" width="18.15" height="105.82499999999999" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<rect x="793.8" y="212.7375" width="18.15" height="90.26249999999999" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<rect x="811.95" y="231.41250000000002" width="18.15" height="71.58749999999998" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<rect x="830.1" y="278.1" width="18.15" height="24.899999999999977" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<rect x="848.25" y="274.9875" width="18.15" height="28.01249999999999" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<rect x="866.4" y="299.8875" width="18.15" height="3.1125000000000114" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<rect x="884.55" y="296.775" width="18.15" height="6.225000000000023" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<rect x="902.7" y="303" width="18.15" height="0" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<rect x="920.8499999999999" y="303" width="18.15" height="0" fill="#D66A28" stroke="white" stroke-width=".8"/>
+<line x1="777.4148504310108" y1="54" x2="777.4148504310108" y2="303" stroke="#202020" stroke-width="2.2" stroke-dasharray="6 4"/>
+<line x1="884.55" y1="54" x2="884.55" y2="303" stroke="#202020" stroke-width="1.6" stroke-dasharray="2 3"/>
+<line x1="576" y1="54" x2="576" y2="303" stroke="#202020" stroke-width="2.66" />
+<line x1="576" y1="303" x2="939" y2="303" stroke="#202020" stroke-width="2.66" />
+<line x1="612.3000000000001" y1="303" x2="612.3000000000001" y2="311" stroke="#202020" stroke-width="2.66" />
+<text x="612.3000000000001" y="330" font-size="16" text-anchor="middle" >-0.15</text>
+<line x1="703.05" y1="303" x2="703.05" y2="311" stroke="#202020" stroke-width="2.66" />
+<text x="703.05" y="330" font-size="16" text-anchor="middle" >-0.10</text>
+<line x1="793.8" y1="303" x2="793.8" y2="311" stroke="#202020" stroke-width="2.66" />
+<text x="793.8" y="330" font-size="16" text-anchor="middle" >-0.05</text>
+<line x1="884.55" y1="303" x2="884.55" y2="311" stroke="#202020" stroke-width="2.66" />
+<text x="884.55" y="330" font-size="16" text-anchor="middle" >0</text>
+<line x1="568" y1="303" x2="576" y2="303" stroke="#202020" stroke-width="2.66" />
+<text x="563" y="308" font-size="16" text-anchor="end" >0</text>
+<line x1="568" y1="240.75" x2="576" y2="240.75" stroke="#202020" stroke-width="2.66" />
+<text x="563" y="245.75" font-size="16" text-anchor="end" >20</text>
+<line x1="568" y1="178.5" x2="576" y2="178.5" stroke="#202020" stroke-width="2.66" />
+<text x="563" y="183.5" font-size="16" text-anchor="end" >40</text>
+<line x1="568" y1="116.25" x2="576" y2="116.25" stroke="#202020" stroke-width="2.66" />
+<text x="563" y="121.25" font-size="16" text-anchor="end" >60</text>
+<line x1="568" y1="54" x2="576" y2="54" stroke="#202020" stroke-width="2.66" />
+<text x="563" y="59" font-size="16" text-anchor="end" >80</text>
+<text x="757.5" y="366" font-size="20" text-anchor="middle" >Randomized Q²</text>
+<text x="512" y="178.5" font-size="20" text-anchor="middle" transform="rotate(-90 512 178.5)">Frequency</text>
+<rect x="749" y="57" width="188" height="42" fill="white"/>
+<text x="931" y="74" font-size="14.6" text-anchor="end" >Original Q² = 0.6922</text>
+<text x="931" y="93" font-size="14.6" text-anchor="end" >p = 0.004975</text>
+</g></svg>
