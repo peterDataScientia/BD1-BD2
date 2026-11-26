@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -N BRD4_STEREO_NP
+#PBS -q serial
+#PBS -l select=1:ncpus=4:mpiprocs=1:mem=8gb
+#PBS -l walltime=01:00:00
+#PBS -j oe
+set -euo pipefail
+cd "$PBS_O_WORKDIR"
+export OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 MKL_NUM_THREADS=4 NUMEXPR_NUM_THREADS=4
+"${LOO_PYTHON:-python}" -u CHPC_STEREO/secondary_screen.py
