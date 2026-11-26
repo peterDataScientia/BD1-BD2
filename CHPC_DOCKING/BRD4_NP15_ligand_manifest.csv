@@ -1,0 +1,16 @@
+ligand_id,identifier,name,smiles,inchikey,profile,heavy_atoms,mw
+NP01,CNP0415674.1,Psychotrine,CC[C@H]1CN2CCc3cc(OC)c(OC)cc3[C@@H]2C[C@@H]1CC1=C2C=C(OC)C(=O)C=C2CCN1,CLNILJPYOXIKRO-REIDKSKDSA-N,BD1-selective,34,464.606
+NP02,CNP0103410.0,Isosinensetin,COc1ccc(-c2cc(=O)c3c(OC)cc(OC)c(OC)c3o2)cc1OC,UYCWETIUOAGWIL-UHFFFAOYSA-N,BD2-selective,27,372.373
+NP03,CNP0483661.0,Isonaamine C,COc1ccc(Cn2cc(Cc3ccc(OC)c(OC)c3)nc2N)cc1,NAVLFLWMOIRLJG-UHFFFAOYSA-N,BD2-selective,26,353.422
+NP04,CNP0174349.0,Homoegonol,COc1ccc(-c2cc3cc(CCCO)cc(OC)c3o2)cc1OC,PFOARMALXZGCHY-UHFFFAOYSA-N,BD2-selective,25,342.391
+NP05,CNP0113505.0,"5,7-Dimethoxy-4-phenylcoumarin",COc1cc(OC)c2c(-c3ccccc3)cc(=O)oc2c1,YYLAUZVFWOZLCG-UHFFFAOYSA-N,BD2-selective,21,282.295
+NP06,CNP0184323.0,4′-Methylchrysoeriol,COc1ccc(-c2cc(=O)c3c(O)cc(O)cc3o2)cc1OC,AOLOMULCAJQEIG-UHFFFAOYSA-N,BD2-selective,23,314.293
+NP07,CNP0147332.0,Quercetin pentamethyl ether,COc1cc(OC)c2c(=O)c(OC)c(-c3ccc(OC)c(OC)c3)oc2c1,ALGDHWVALRSLBT-UHFFFAOYSA-N,BD2-selective,27,372.373
+NP08,CNP0253774.0,Oxoassoanine,COc1cc2c(=O)n3c4c(cccc4c2cc1OC)CC3,PENHARRUWVHIOQ-UHFFFAOYSA-N,BD2-selective,21,281.311
+NP09,CNP0261798.0,Sciadopitysin,COc1ccc(-c2cc(=O)c3c(O)cc(O)c(-c4cc(-c5cc(=O)c6c(O)cc(OC)cc6o5)ccc4OC)c3o2)cc1,YCXRBCHEOFVYEN-UHFFFAOYSA-N,Dual,43,580.545
+NP10,LTS0137798,Ginkgetin,COc1cc(O)c2c(=O)cc(-c3ccc(OC)c(-c4c(O)cc(O)c5c(=O)cc(-c6ccc(O)cc6)oc45)c3)oc2c1,AIFCFBUSLAEIBR-UHFFFAOYSA-N,Dual,42,566.518
+NP11,CNP0353995.0,Heveaflavone,COc1ccc(-c2cc(=O)c3c(O)cc(OC)c(-c4cc(-c5cc(=O)c6c(O)cc(OC)cc6o5)ccc4O)c3o2)cc1,NXPAGAZHSWSUFJ-UHFFFAOYSA-N,Dual,43,580.545
+NP12,CNP0416274.0,Isoginkgetin,COc1ccc(-c2cc(=O)c3c(O)cc(O)c(-c4cc(-c5cc(=O)c6c(O)cc(O)cc6o5)ccc4OC)c3o2)cc1,HUOOMAOYXQFIDQ-UHFFFAOYSA-N,Dual,42,566.518
+NP13,CNP0282268.0,Muxiangrine III,COc1c(C)c(O)c2c(=O)cc(-c3cc(O)c(O)c(CC=C(C)C)c3)oc2c1C,PCAHZXLEUZEBMU-UHFFFAOYSA-N,Dual,29,396.439
+NP14,CNP0159642.1,Yuanhuanin,COc1cc(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)c2c(=O)cc(-c3ccc(O)c(O)c3)oc2c1,ZXVSQQSRCKKYLS-MIUGBVLSSA-N,Dual,33,462.407
+NP15,CNP0127115.0,Cirsiliol,COc1cc2oc(-c3ccc(O)c(O)c3)cc(=O)c2c(O)c1OC,IMEYGBIXGJLUIS-UHFFFAOYSA-N,Dual,24,330.292
