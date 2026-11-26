@@ -1,0 +1,19 @@
+#!/bin/bash
+#PBS -N YR_BRD4
+#PBS -q serial
+#PBS -l select=1:ncpus=24:mpiprocs=1:mem=48gb
+#PBS -l walltime=03:00:00
+#PBS -j oe
+set -euo pipefail
+cd "$PBS_O_WORKDIR"
+export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1
+: "${YR_DOMAIN:?Set YR_DOMAIN=BD1 or BD2}"
+PYTHON="${LOO_PYTHON:-python}"
+START="${YR_START:-0}"
+END="${YR_END:-200}"
+# Optional PBS Pro job array: indices 1-20 cover 10 permutations each.
+if [ -n "${PBS_ARRAY_INDEX:-}" ]; then
+    START=$(( (PBS_ARRAY_INDEX-1)*10+1 ))
+    END=$(( PBS_ARRAY_INDEX*10 ))
+fi
+"$PYTHON" -u CHPC_Y_RANDOM/run_y_randomization.py "$YR_DOMAIN" --start "$START" --end "$END" --workers "${YR_WORKERS:-24}"
