@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -N BRD4_PROV
+#PBS -q serial
+#PBS -l select=1:ncpus=1:mpiprocs=1:mem=8gb
+#PBS -l walltime=01:00:00
+#PBS -j oe
+set -euo pipefail
+cd "$PBS_O_WORKDIR"
+export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1
+"${LOO_PYTHON:-python}" -u CHPC_STEREO/provenance_audit.py
